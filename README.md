@@ -35,6 +35,6 @@ Pretty much work in progress - feel free to make pull requests.
 
 Download the file and point Google Closure compiler to the folder with externs (`:compiler :exters` for CLJS)
 
-## Keep it up to data
+## Keep it up to date
 
 TODO: Put it in NPM and CLJSJS
