@@ -33,8 +33,16 @@ Pretty much work in progress - feel free to make pull requests.
 
 ## Installation
 
-Download the file and point Google Closure compiler to the folder with
-externs (`:compiler :exters` for CLJS)
+[![Clojars Project](http://clojars.org/react-native-externs/latest-version.svg)](http://clojars.org/react-native-externs)
+
+If you are using Reagent/Om/Om-Next or any other CLJS wrapper around React make sure that you exclude browser React version:
+
+``` clojure
+{:dependencies [[react-native-externs "0.0.1-SNAPSHOT"]
+                [org.omcljs/om "1.0.0-alpha25" :exclusions [cljsjs/react cljsjs/react-dom]]]
+```
+
+Otherwise you will end up with two versions of React: browser and native, which hopefully wouldn't conflict with each other. 
 
 ## TODO
 
