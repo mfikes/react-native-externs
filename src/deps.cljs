@@ -1,1 +1,2 @@
-{:externs ["react/react.native.ext.js"]}
+{:externs ["react/react.ext.js"
+           "react/react.native.ext.js"]}
