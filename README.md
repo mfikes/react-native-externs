@@ -44,6 +44,11 @@ If you are using Reagent/Om/Om-Next or any other CLJS wrapper around React make 
 
 Otherwise you will end up with two versions of React: browser and native, which hopefully wouldn't conflict with each other. 
 
+# References
+
+- Tired of JS interop and looking for React Native wrapper? Have a look on [ktoa](https://github.com/artemyarulin/ktoa)
+- Looking for the easy start? Have a look on [lein template for om-next](https://github.com/artemyarulin/om-next-cross-platform-template)
+
 ## TODO
 
 - Put it in NPM and CLJSJS? NPM in case Scala.JS or any other language
