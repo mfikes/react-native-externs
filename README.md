@@ -33,8 +33,13 @@ Pretty much work in progress - feel free to make pull requests.
 
 ## Installation
 
-Download the file and point Google Closure compiler to the folder with externs (`:compiler :exters` for CLJS)
+Download the file and point Google Closure compiler to the folder with
+externs (`:compiler :exters` for CLJS)
 
-## Keep it up to date
+## TODO
 
-TODO: Put it in NPM and CLJSJS
+- Put it in NPM and CLJSJS? NPM in case Scala.JS or any other language
+  which use Google Closure can use it?
+- How to organize libs? If we put all possible React Native lib
+  externs in one file it'll make thing easy to ditribute, but then
+  advanced optimization would be pointless
