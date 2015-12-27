@@ -1,4 +1,6 @@
-# react-native-externs
+# react-native-externs [![Downloads](https://jarkeeper.com/artemyarulin/react-native-externs/downloads.svg)](https://jarkeeper.com/artemyarulin/react-native-externs)
+
+[![Clojars Project](http://clojars.org/react-native-externs/latest-version.svg)](http://clojars.org/react-native-externs)
 
 Google Closure extern files for React Native itself and for the
 libraries around it
@@ -32,8 +34,6 @@ from Google Closure
 Pretty much work in progress - feel free to make pull requests.
 
 ## Installation
-
-[![Clojars Project](http://clojars.org/react-native-externs/latest-version.svg)](http://clojars.org/react-native-externs)
 
 If you are using Reagent/Om/Om-Next or any other CLJS wrapper around React make sure that you exclude browser React version:
 
