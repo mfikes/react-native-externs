@@ -29,7 +29,7 @@ from Google Closure
 
 ## Status
 
-Pretty much work in progress - feel free to make pull requests.
+All the components and API of React Native itself should be covered
 
 ## Installation
 
@@ -42,7 +42,7 @@ If you are using Reagent/Om/Om-Next or any other CLJS wrapper around React make 
                 [org.omcljs/om "1.0.0-alpha25" :exclusions [cljsjs/react cljsjs/react-dom]]]
 ```
 
-Otherwise you will end up with two versions of React: browser and native, which hopefully wouldn't conflict with each other. 
+Otherwise you will end up with two versions of React: browser and native, which hopefully wouldn't conflict with each other.
 
 # References
 
