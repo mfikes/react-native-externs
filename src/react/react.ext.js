@@ -4,10 +4,6 @@
  * @externs
  */
 
-/**
- * @type {!Object}
- * @const
- */
 var React = {};
 
 /**
