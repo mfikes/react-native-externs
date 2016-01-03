@@ -4,6 +4,7 @@
  * @externs
  */
 
+/** @suppress {duplicate, const} */
 var React = {};
 
 /**
