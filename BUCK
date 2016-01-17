@@ -1,4 +1,4 @@
-include_defs('//clojurescript-buck/lib')
+include_defs('//clojure-clojurescript-buck/lib')
 
-cljs_lib(name='react-native-externs',
-         src=['src'])
+cljs_module(name='react-native-externs',
+            src=['src'])
