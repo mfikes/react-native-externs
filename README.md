@@ -2,8 +2,7 @@
 
 [![Clojars Project](http://clojars.org/react-native-externs/latest-version.svg)](http://clojars.org/react-native-externs)
 
-Google Closure extern files for React Native itself and for the
-libraries around it
+Google Closure extern files for React Native
 
 ## Why?
 
@@ -35,7 +34,7 @@ All the components and API of React Native itself should be covered
 
 ## Installation
 
-If you are using Reagent/Om/Om-Next or any other CLJS wrapper around React make sure that you exclude browser React version:
+If you are using ClojureScript with Reagent/Om/Om-Next or any other CLJS wrapper around React make sure that you exclude browser React version:
 
 ``` clojure
 {:dependencies [[react-native-externs "0.0.1-SNAPSHOT"]
@@ -44,15 +43,14 @@ If you are using Reagent/Om/Om-Next or any other CLJS wrapper around React make 
 
 Otherwise you will end up with two versions of React: browser and native, which hopefully wouldn't conflict with each other.
 
+If you are not ClojureScript user - then simply grab [src/react/react.native.ext.js](React Native externs file)
+
 # References
 
-- Tired of JS interop and looking for React Native wrapper? Have a look on [ktoa](https://github.com/artemyarulin/ktoa)
-- Looking for the easy start? Have a look on [lein template for om-next](https://github.com/artemyarulin/om-next-cross-platform-template)
+- Tired of ClojureScript <> JS interop and looking for React Native wrapper? Have a look on [ktoa](https://github.com/artemyarulin/ktoa)
+- Looking for the easy start with ClojureScript and Om-Next? Have a look on [lein template for om-next](https://github.com/artemyarulin/om-next-cross-platform-template)
 
 ## TODO
 
 - Put it in NPM and CLJSJS? NPM in case Scala.JS or any other language
   which use Google Closure can use it?
-- How to organize libs? If we put all possible React Native lib
-  externs in one file it'll make thing easy to ditribute, but then
-  advanced optimization would be pointless
