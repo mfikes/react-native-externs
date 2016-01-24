@@ -43,7 +43,7 @@ If you are using ClojureScript with Reagent/Om/Om-Next or any other CLJS wrapper
 
 Otherwise you will end up with two versions of React: browser and native, which hopefully wouldn't conflict with each other.
 
-If you are not ClojureScript user - then simply grab [src/react/react.native.ext.js](React Native externs file)
+If you are not ClojureScript user - then simply grab [React Native externs file](src/react/react.native.ext.js)
 
 # References
 
