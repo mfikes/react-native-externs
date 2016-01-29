@@ -28,6 +28,7 @@ ReactNative.Modal = {}
 ReactNative.NativeAppEventEmitter = {}
 ReactNative.NativeModules = {}
 ReactNative.Navigator = {}
+ReactNative.NavigatorIOS = {}
 ReactNative.NetInfo = {}
 ReactNative.PanResponder = {}
 ReactNative.PickerIOS = {}
@@ -99,6 +100,17 @@ Navigator.replacePrevious = function() {}
 Navigator.immediatelyResetRouteStack = function() {}
 Navigator.popToRoute = function() {}
 Navigator.popToTop = function() {}
+
+var NavigatorIOS = {}
+NavigatorIOS.push = function() {}
+NavigatorIOS.pop = function() {}
+NavigatorIOS.popN = function() {}
+NavigatorIOS.replace = function() {}
+NavigatorIOS.replacePrevious = function() {}
+NavigatorIOS.replacePreviousAndPop = function() {}
+NavigatorIOS.resetTo = function() {}
+NavigatorIOS.popToRoute = function() {}
+NavigatorIOS.popToTop = function() {}
 
 var ActionSheetIOS = {}
 ActionSheetIOS.showActionSheetWithOptions = function() {}
