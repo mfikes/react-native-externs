@@ -1,4 +1,4 @@
-(defproject react-native-externs "0.0.1-SNAPSHOT"
+(defproject react-native-externs "0.0.2-SNAPSHOT"
   :description "Google Closure extern files for React Native itself and for the libraries around it"
   :url "https://github.com/artemyarulin/react-native-externs"
   :license {:name "MIT License"
