@@ -54,3 +54,11 @@ If you are not ClojureScript user - then simply grab [React Native externs file]
 
 - Put it in NPM and CLJSJS? NPM in case Scala.JS or any other language
   which use Google Closure can use it?
+
+## License
+
+Copyright © 2017 Mike Fikes and Contributors
+
+Copyright © 2015–2016 Artem Yarulin
+
+Distributed under the MIT License
