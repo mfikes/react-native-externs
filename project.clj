@@ -1,6 +1,6 @@
 (defproject react-native-externs "0.0.3"
   :description "Google Closure extern files for React Native itself and for the libraries around it"
-  :url "https://github.com/artemyarulin/react-native-externs"
+  :url "https://github.com/mfikes/react-native-externs"
   :license {:name "MIT License"
             :url "http://opensource.org/licenses/MIT"}
   :dependencies [[org.clojure/clojure "1.7.0"]
