@@ -184,6 +184,24 @@ var Dimensions = {}
 Dimensions.set = function() {}
 Dimensions.get = function() {}
 
+var Easing = {}
+Easing.back = {}
+Easing.bezier = {}
+Easing.bounce = {}
+Easing.cubic = {}
+Easing.ease = {}
+Easing.elastic = {}
+Easing.exp = {}
+Easing.in = {}
+Easing.inOut = {}
+Easing.linear = {}
+Easing.out = {}
+Easing.poly = {}
+Easing.quad = {}
+Easing.sin = {}
+Easing.step0 = {}
+Easing.step1 = {}
+
 var IntentAndroid = {}
 IntentAndroid.openURL = function() {}
 IntentAndroid.canOpenURL = function() {}
