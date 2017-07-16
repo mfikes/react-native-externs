@@ -128,6 +128,7 @@ AlertIOS.prompt = function() {}
 
 var Animated = {}
 Animated.Value = function() {}
+Animated.ValueXY = function() {}
 Animated.add = function() {}
 Animated.addListener = function() {}
 Animated.animate = function() {}
