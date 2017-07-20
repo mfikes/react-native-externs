@@ -156,6 +156,11 @@ Animated.stopTracking = function() {}
 Animated.timing = function() {}
 Animated.track = function() {}
 
+var AppState = {}
+AppState.currentState = {}
+AppState.addEventListener = function() {}
+AppState.removeEventListener = function() {}
+
 var AppStateIOS = {}
 AppStateIOS.currentState = {}
 AppStateIOS.addEventListener = function() {}
