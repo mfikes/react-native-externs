@@ -89,6 +89,7 @@ ListView.DataSource = function() {}
 
 var DataSource = {}
 DataSource.cloneWithRows = function() {}
+DataSource.cloneWithRowsAndSections = function() {}
 
 var Navigator = {}
 Navigator.getCurrentRoutes = function() {}
