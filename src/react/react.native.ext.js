@@ -12280,6 +12280,87 @@ ReactNative.WebView.prototype = {
     isReactComponent: function() {},
     setState: function() {}
 };
+var Event = {
+    _dispatchInstances: {},
+    _dispatchListeners: {},
+    _targetInst: {},
+    bubbles: {},
+    cancelable: {},
+    constructor: {
+        Interface: {
+            bubbles: {},
+            cancelable: {},
+            currentTarget: function() {},
+            defaultPrevented: {},
+            eventPhase: {},
+            isTrusted: {},
+            target: {},
+            timeStamp: function() {},
+            touchHistory: function() {},
+            type: {}
+        },
+        augmentClass: function() {},
+        getPooled: function() {},
+        instancePool: {},
+        poolSize: {},
+        release: function() {}
+    },
+    currentTarget: function() {},
+    defaultPrevented: {},
+    destructor: function() {},
+    dispatchConfig: {},
+    eventPhase: {},
+    isDefaultPrevented: {},
+    isPersistent: function() {},
+    isPropagationStopped: {},
+    isTrusted: {},
+    nativeEvent: {},
+    persist: function() {},
+    preventDefault: {
+        thatReturns: function() {},
+        thatReturnsArgument: function() {},
+        thatReturnsFalse: function() {},
+        thatReturnsNull: function() {},
+        thatReturnsThis: function() {},
+        thatReturnsTrue: function() {}
+    },
+    stopPropagation: {
+        thatReturns: function() {},
+        thatReturnsArgument: function() {},
+        thatReturnsFalse: function() {},
+        thatReturnsNull: function() {},
+        thatReturnsThis: function() {},
+        thatReturnsTrue: function() {}
+    },
+    target: {},
+    timeStamp: function() {},
+    touchHistory: function() {},
+    type: {}
+};
+Event.constructor.prototype = {
+    constructor: function() {},
+    destructor: function() {},
+    isPersistent: function() {},
+    persist: function() {},
+    preventDefault: function() {},
+    stopPropagation: function() {}
+};
+var Gesture = {
+    _accountsForMovesUpTo: {},
+    dx: {},
+    dy: {},
+    moveX: {},
+    moveY: {},
+    numberActiveTouches: {},
+    stateID: {},
+    vx: {},
+    vy: {},
+    x0: {},
+    y0: {}
+};
+var AnimationCallbackValue = {
+    finished: {}
+};
 // Manually-added Navigator
 var Navigator = {
     getCurrentRoutes: function() {},
