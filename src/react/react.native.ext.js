@@ -12361,7 +12361,6 @@ var Gesture = {
 var AnimationCallbackValue = {
     finished: {}
 };
-// Manually-added Navigator
 var Navigator = {
     getCurrentRoutes: function() {},
     jumpBack: function() {},
@@ -12376,18 +12375,15 @@ var Navigator = {
     popToRoute: function() {},
     popToTop: function() {}
 };
-// Manually-added properties on CameraRoll
 var CameraRoll = {
     saveImageWithTag: function() {},
     getPhotos: function() {}
 };
-// Manually added IntentAndroid
 var IntentAndroid = {
     openURL: function() {},
     canOpenURL: function() {},
     getInitialURL: function() {}
 };
-// Manually added LinkingIOS
 var LinkingIOS = {
     addEventListener: function() {},
     removeEventListener: function() {},
@@ -12395,14 +12391,12 @@ var LinkingIOS = {
     canOpenURL: function() {},
     popInitialURL: function() {}
 };
-// Manually added PixelRatio
 var PixelRatio = {
     get: function() {},
     getFontScale: function() {},
     getPixelSizeForLayoutSize: function() {},
     startDetecting: function() {}
 };
-// Manually added PushNotificationIOS
 var PushNotificationIOS = {
     presentLocalNotification: function() {},
     scheduleLocalNotification: function() {},
@@ -12424,22 +12418,17 @@ var PushNotificationIOS = {
     getBadgeCount: function() {},
     getData: function() {}
 };
-// Manually added ToastAndroid
 var ToastAndroid = {
     show: function() {},
     SHORT: {},
     LONG: {}
 };
-// Manually added geolocation
 var geolocation = {
     getCurrentPosition: function() {},
     watchPosition: function() {},
     clearWatch: function() {},
     stopObserving: function() {}
 };
-// Classes. These are generated using code like:
-// (println (javascript-externs-generator.extern/extract "AnimatedValue" (new rn/Animated.Value))
-// (clojure.string/join ",\n" (map (fn [n] (str n ": function() {}")) (sort (js->clj (js/Object.getOwnPropertyNames (js/Object.getPrototypeOf (new rn/Animated.Value)))))))
 var AnimatedValue = {
     _animation: {},
     _children: {},
@@ -12527,8 +12516,6 @@ var ListViewDataSource = {
     rowShouldUpdate: function() {},
     sectionHeaderShouldUpdate: function() {}
 };
-// Static fns
-// (clojure.string/join ",\n" (map (fn [n] (str n ": function() {}")) (sort (js->clj (js/Object.getOwnPropertyNames rn/Easing)))))
 var Easing = {
     back: function() {},
     bezier: function() {},
