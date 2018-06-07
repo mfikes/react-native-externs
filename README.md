@@ -57,7 +57,7 @@ If you are not ClojureScript user - then simply grab [React Native externs file]
 
 ## License
 
-Copyright © 2017 Mike Fikes and Contributors
+Copyright © 2017–2018 Mike Fikes and Contributors
 
 Copyright © 2015–2016 Artem Yarulin
 
