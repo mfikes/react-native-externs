@@ -10680,6 +10680,7 @@ var ReactNative = {
         setJSResponder: {
             type: {}
         },
+        setLayoutAnimationEnabledExperimental: function() {},
         takeSnapshot: function() {},
         updateView: {
             type: {}
